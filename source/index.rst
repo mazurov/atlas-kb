@@ -3,15 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to My ATLAS knowledgebase's documentation!
-==================================================
+Welcome to My ATLAS knowledge base
+==================================
+
+UNDER DEVELOPMENT - THE STRUCTURE AND LINKS CAN BE CHANGED IN THE FUTURE
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
+   links
    shcommands
+   mails
 
 
 

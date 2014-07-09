@@ -254,8 +254,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'MyATLASknowledgebase', u'My ATLAS knowledgebase Documentation',
-   u'Sasha Mazurov', 'MyATLASknowledgebase', 'One line description of project.',
+  ('index', 'MyATLASknowledgebase', u'My ATLAS knowledge base',
+   u'Sasha Mazurov', 'MyATLASknowledgebase', 'Links, snippets, documentation',
    'Miscellaneous'),
 ]
 
@@ -275,7 +275,7 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'My ATLAS knowledgebase'
+epub_title = u'My ATLAS knowledge base'
 epub_author = u'Sasha Mazurov'
 epub_publisher = u'Sasha Mazurov'
 epub_copyright = u'2014, Sasha Mazurov'

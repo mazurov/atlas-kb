@@ -1,9 +1,36 @@
 {
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"make html"
+			],
+			"name": "Compile (atlas-docs)",
+			"shell": true,
+			"variants":
+			[
+				{
+					"cmd":
+					[
+						"xdg-open build/index.html&"
+					],
+					"name": "Browse"
+				}
+			],
+			"working_dir": "${project_path}"
+		}
+	],
 	"folders":
 	[
 		{
 			"follow_symlinks": true,
 			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/afs/cern.ch/user/a/amazurov/ATLAS/18.1.2.1"
 		}
-	]
+	],
+	"spell_check": true
 }
