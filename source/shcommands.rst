@@ -1,7 +1,8 @@
 Shell commands
 =====================
 
-* Setup th ATLAS environment if your account n **NOT** in *zp* group (e.g, on the Birmingham cluster)
+
+* `Setup the ATLAS environment <https://twiki.cern.ch/twiki/bin/view/AtlasComputing/AtlasSetup?redirectedfrom=Atlas.AtlasSetup>`_ if your account n **NOT** in *zp* group (e.g, on the Birmingham cluster)
 
 .. code-block:: sh
 

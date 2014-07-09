@@ -24,12 +24,12 @@
 	"folders":
 	[
 		{
+			"folder_exclude_patterns":
+			[
+				"build"
+			],
 			"follow_symlinks": true,
 			"path": "."
-		},
-		{
-			"follow_symlinks": true,
-			"path": "/afs/cern.ch/user/a/amazurov/ATLAS/18.1.2.1"
 		}
 	],
 	"spell_check": true
