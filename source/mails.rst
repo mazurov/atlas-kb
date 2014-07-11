@@ -144,7 +144,7 @@ This wouldn't affect CPMTower or JetElement, both of which also contain 2 layers
 * https://drive.google.com/file/d/0Bw1zWDlANxEoM1BaOURFSEV1YkdlQ3dKNTJyN3ZETkM4VENF/edit?usp=sharing
 
 
-5. On formats from steve
+5. On formats from Steve
 -------------------------------
 
 Hello,
@@ -162,3 +162,26 @@ is going to be discussed soon.  The situation for the
 Topo readout is similar!
       
 Cheers, Steve
+
+
+D3PD Maker
+==========
+
+1. CAF
+
+D3PDMaker on CAF can be started using commands:
+
+cd /afs/cern.ch/user/l/l1ccalib/testarea/15.2.0/Trigger/TrigT1/TrigT1CaloCAF/Daemons
+source setup.sh
+python StartJob.py 168160 L1CaloCalibD3PD
+
+where this 168160 is a run number (can be any calibration run)
+
+but I can't see it checked out in 17.2.8.7, maybe Pete run it directly from the release? There are some job options templates in directory:
+~/testarea/17.2.0.2/Trigger/TrigT1/TrigT1CaloCAF/Daemons/JobOrganizer/JobOptionsTemplates
+these are probably used to run jobs...
+
+If you look at web page: http://atlas-l1calo.web.cern.ch/atlas-l1calo/calib/CalibRunsCAF.php this shows calibration jobs we run recently. There are several successfull Tile runs (most recent 223984 from end of 2013) , one successful LAr run (204949). Maybe you can try to resubmit the job on one of these runs just to see what happens?
+
+And there is one failed job (228862), from a recent Tile run.  I think I submitted this job just for fun when Tile people took it, but didn't check why it failed.
+
