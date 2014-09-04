@@ -17,6 +17,7 @@ Contents:
    shcommands
    mails
    ttdump
+   nrun
 
 
 
