@@ -7,7 +7,7 @@ Dump run number
     $> asetup 19.1.2
     $> export STAGE_SVCCLASS=atlcal # user should hve access to the calibration runs (I use l1ccalib)
 
-.. raw:: python
+.. code-block:: pyton
 
     # Bytestream event format module
     import eformat as ef
