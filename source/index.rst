@@ -18,6 +18,7 @@ Contents:
    mails
    ttdump
    nrun
+   cpmdump
 
 
 
